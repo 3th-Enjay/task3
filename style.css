@@ -1,0 +1,105 @@
+body{
+    background-image: url("deer\ background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+.main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+
+}
+.container{
+    padding:2em;
+    justify-content: center;
+    backdrop-filter: blur(25px);
+    border: 2px solid;
+    border-radius: 15px;
+    
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.box{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.basic-info{
+    font-size:20px;
+    font: bold 3px; 
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+label {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+   font-weight: 800;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .person{
+    background-color: lightgray;
+margin-bottom: 20px;
+height: 40px;
+width:300px;
+border-radius:10px;
+border:none;
+  }
+::placeholder{
+    color: slategray;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+
+}
+select{
+    color: slategray;
+    width: 300px;
+    height: 40px;
+    border-radius:10px;
+    border:none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid grey;
+    border-radius: 10px;
+    
+}
+span{
+    display: flex;
+    justify-content: start;
+    font-weight: 600;
+}
+textarea{
+    height:150px;
+    width: 350px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border:none;
+}
+.submit {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border:none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
