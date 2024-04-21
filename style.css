@@ -86,6 +86,7 @@ span{
     display: flex;
     justify-content: start;
     font-weight: 600;
+    color:lightgray;
 }
 textarea{
     height:150px;
