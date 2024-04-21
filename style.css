@@ -4,6 +4,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 h1{
     text-align: center;
@@ -29,15 +30,17 @@ h1{
 .box{
     text-align: center;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 18px solid;
+    
 }
 .basic-info{
     font-size:20px;
-    font: bold 3px; 
+    font: bold 3px ; 
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.1);
 }
 label {
+    color:lightgray;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
