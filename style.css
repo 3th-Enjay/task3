@@ -103,3 +103,7 @@ textarea{
     font-weight: 800;
     margin-bottom: 20px;
 }
+footer{
+    display: flex;
+    text-align: center;
+}
